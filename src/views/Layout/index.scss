@@ -1,0 +1,27 @@
+.layout {
+    height: 100%;
+
+    .layout-header {
+        height: 58px;
+        background-color: #333;
+        display: flex;
+        align-items: center;
+    }
+
+    .header-bd {
+        flex: 1;
+    }
+
+    .header-ft {
+        color: #fff;
+    }
+
+    .user-name {
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .side-menu {
+        height: 100%;
+    }
+}

@@ -1,0 +1,51 @@
+.login {
+    height: 100%;
+
+    background: url('@/assets/bg.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .login-mask {
+        position: absolute;
+        z-index: 9;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .login-content {
+        position: absolute;
+        z-index: 99;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    .login-wrapper {
+        width: 400px;
+        text-align: center;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: 1px solid rgb(209, 194, 194);
+        border-radius: 6px;
+        padding: 40px 45px 20px;
+        color: #333;
+    }
+
+    .page-title {
+        font-size: 34px;
+        margin: 30px;
+        color: #fff;
+        letter-spacing: 2px;
+        font-weight: lighter;
+        text-align: center;
+    }
+
+    .login-title {
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 16px;
+    }
+}
